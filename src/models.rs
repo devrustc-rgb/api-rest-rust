@@ -1,3 +1,6 @@
+
+#![allow(dead_code)] //sileciar os warning:
+
 use serde::{Deserialize, Serialize};
 use std::collections::HashMap;
 use std::sync::{Arc, Mutex};

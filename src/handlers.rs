@@ -1,3 +1,6 @@
+
+#![allow(dead_code)]
+
 use axum::{
     Json,
     extract::{Path, State},
@@ -25,6 +28,8 @@ pub async fn buscar_tarefa(
         .map(Json)
         .ok_or(StatusCode::NOT_FOUND)
 }
+
+
 
 pub async fn criar_tarefa(
     State(estado): State<EstadoApp>,
