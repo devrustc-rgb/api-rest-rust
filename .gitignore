@@ -1,0 +1,29 @@
+/target
+/Readem01.md/
+
+/digita/digit.py/
+
+# Rust / Cargo
+/target/
+**/*.rs.bk
+*.pdb
+
+# Dioxus & WebAssembly
+/dist/
+/.dioxus/
+
+
+# Variáveis de Ambiente & Segredos
+.env
+.env.*
+!.env.example
+
+# Configurações de IDEs
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# Ficheiros do Sistema Operacional
+.DS_Store
+Thumbs.db
