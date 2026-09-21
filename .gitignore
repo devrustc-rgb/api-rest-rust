@@ -1,7 +1,8 @@
 /target
 /Readem01.md/
 
-/digita/digit.py/
+# Pasta local ignorada
+/digita/
 
 # Rust / Cargo
 /target/
