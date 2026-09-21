@@ -26,3 +26,4 @@ pub fn criar_roteador(estado: EstadoApp) -> Router {
         .fallback(rota_nao_encontrada)
         .with_state(estado)
 }
+                  
